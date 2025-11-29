@@ -1,4 +1,4 @@
-# ADAS Features on a Scaled Robotic Car (Pixy2 + Arduino)
+# ADAS Features on a Robotic Car (Pixy2 + Arduino)
 
 This repository contains a scaled robotic car that implements several **Advanced Driver Assistance System (ADAS)** features using a **Pixy2 vision sensor**.
 
