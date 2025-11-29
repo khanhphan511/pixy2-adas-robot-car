@@ -1,4 +1,9 @@
 # ADAS Features on a Robotic Car (Pixy2 + Arduino)
+<p align="center">
+  <img src="images/robot_car.png" alt="Pixy2 ADAS robotic car front view" width="60%" /><br/>
+  <em>Pixy2-based ADAS robotic car used for object following, traffic-light logic, and lane keeping.</em>
+</p>
+
 
 This repository contains a scaled robotic car that implements several **Advanced Driver Assistance System (ADAS)** features using a **Pixy2 vision sensor**.
 
@@ -10,8 +15,7 @@ This repository contains a scaled robotic car that implements several **Advanced
 - Teach Pixy2 a colored object.
 - Car drives forward to follow the object.
 - Keep at least **6 inches** separation; car slows and stops if it gets too close.
-
-**Demo video:**
+- **Demo video:**
 [Object Following](https://youtu.be/6xRffEo7v08)
 
 ### Traffic Light LED Control + Color Learning
@@ -22,8 +26,7 @@ This repository contains a scaled robotic car that implements several **Advanced
 - Teach Pixy2 three color signatures:
   - `red`, `green`, and `yellow`.
 - Adjust camera and LED brightness with PixyMon + potentiometer.
-  
-**Demo video:**
+- **Demo video:**
 [Traffic Light](https://www.youtube.com/playlist?list=PLhAj-TWWu1yl3NBS3lkK9z68_Uc08iSFL)
 
 ### Time-to-Pass Decision (Yellow Light Logic & Traffic Light Response)
@@ -47,8 +50,7 @@ This repository contains a scaled robotic car that implements several **Advanced
     - **Scenario 2 - Eight seconds are sufficient**  
       - Configure parameters so `t_required ≤ 8 s`.  
       - The car keeps cruising at the same speed, simulating a green light.
-        
-**Demo video:**
+- **Demo video:**
 [Time to Pass](https://www.youtube.com/playlist?list=PLhAj-TWWu1ykZYJdT57a9VnNwiS9CodtV)
 
 ### Lane Keeping
@@ -56,8 +58,7 @@ This repository contains a scaled robotic car that implements several **Advanced
 - Control steering so the car:
   - Stays centered between left and right lines.
   - Does **not** drive directly over either line.
-
-**Demo video:**
+- **Demo video:**
 [Lane Keeping](https://youtube.com/shorts/5OXuzYW-3es?feature=share)
 
 ---
