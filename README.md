@@ -37,10 +37,10 @@ This repository contains a scaled robotic car that implements several **Advanced
      - The car maintains its current speed and continues cruising.
   3. **Yellow light “time-to-pass” logic**
   - Using the measured distance and speed, the car decides whether it can safely pass in 8 seconds:
-    - **Scenario 1 – Eight seconds are NOT sufficient**  
+    - **Scenario 1 - Eight seconds are NOT sufficient**  
       - Configure parameters so `t_required > 8 s`.  
       - The car should stop before the traffic light, simulating a red light.
-    - **Scenario 2 – Eight seconds are sufficient**  
+    - **Scenario 2 - Eight seconds are sufficient**  
       - Configure parameters so `t_required ≤ 8 s`.  
       - The car keeps cruising at the same speed, simulating a green light.
 
@@ -54,10 +54,10 @@ This repository contains a scaled robotic car that implements several **Advanced
 
 ## Code structure
 
-- `firmware/ball_following/` – Ball tracking and 6" safety distance.
-- `firmware/traffic_light_control/` – 20s/16s traffic light patterns and color signatures.
-- `firmware/time_to_pass/` – Distance, speed, time-to-pass logic and serial output.
-- `firmware/lane_keeping/` – Lane detection and centering.
+- `firmware/ball_following/` - Ball tracking and 6" safety distance.
+- `firmware/traffic_light_control/` - 20s/16s traffic light patterns and color signatures.
+- `firmware/time_to_pass/` - Distance, speed, time-to-pass logic and serial output.
+- `firmware/lane_keeping/` - Lane detection and centering.
 
 Each sketch is written in Arduino C/C++ and uses the Pixy2 Arduino library.
 
