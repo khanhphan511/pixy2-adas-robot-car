@@ -54,11 +54,10 @@ This repository contains a scaled robotic car that implements several **Advanced
 
 ## Code structure
 
-- `firmware/ipr1_ball_following/` – Ball tracking and 6" safety distance.
-- `firmware/ipr2_traffic_light_led_control/` – 20s/16s traffic light patterns and color signatures.
-- `firmware/ipr3_time_to_pass_traffic_light/` – Distance, speed, time-to-pass logic and serial output.
-- `firmware/ipr4_lane_keeping/` – Lane detection and centering.
-- `firmware/final_integrated/` – (optional) Combined sketch with all ADAS behaviors.
+- `firmware/ball_following/` – Ball tracking and 6" safety distance.
+- `firmware/traffic_light_control/` – 20s/16s traffic light patterns and color signatures.
+- `firmware/time_to_pass/` – Distance, speed, time-to-pass logic and serial output.
+- `firmware/lane_keeping/` – Lane detection and centering.
 
 Each sketch is written in Arduino C/C++ and uses the Pixy2 Arduino library.
 
